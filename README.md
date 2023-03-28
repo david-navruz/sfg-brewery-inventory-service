@@ -1,1 +1,1 @@
-# sfg-brewery-inventory-service
+# SFG Brewery Inventory Service
