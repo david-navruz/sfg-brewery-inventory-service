@@ -1,8 +1,6 @@
 package guru.sfg.brewery.inventory_service.config;
 
-/**
- * Created by jt on 2019-05-31.
- */
+
 //@EnableIntegration
 //@IntegrationComponentScan
 //@Configuration

@@ -10,9 +10,6 @@ import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by jt on 2019-09-09.
- */
 @Slf4j
 @RequiredArgsConstructor
 @Component
@@ -46,4 +43,5 @@ public class AllocationListener {
 
         jmsTemplate.convertAndSend(JmsConfig.ALLOCATE_ORDER_RESULT_QUEUE, builder.build());
     }
+
 }

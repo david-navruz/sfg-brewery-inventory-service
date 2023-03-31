@@ -13,15 +13,13 @@ import javax.persistence.*;
 import java.sql.Timestamp;
 import java.util.UUID;
 
-/**
- * Created by jt on 2019-05-31.
- */
 @Data
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class BeerInventory {
+
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(
@@ -52,4 +50,5 @@ public class BeerInventory {
     @Column(length = 36, columnDefinition = "varchar(36)")
     private UUID beerId;
     private Integer quantityOnHand;
+
 }
